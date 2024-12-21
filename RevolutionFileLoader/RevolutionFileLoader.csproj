@@ -6,6 +6,7 @@
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GotaNintendoWareSound\GotaNintendoWareSound.csproj" />
     <ProjectReference Include="..\GotaSequenceLib\GotaSequenceLib.csproj" />
     <ProjectReference Include="..\GotaSoundIO\GotaSoundIO.csproj" />
   </ItemGroup>

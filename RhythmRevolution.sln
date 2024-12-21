@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhythmRevolution", "RhythmRevolution\RhythmRevolution.csproj", "{FFA64869-77B6-49DF-805C-191DE8637D27}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSoundIO", "GotaSoundIO\GotaSoundIO.csproj", "{210EE9D5-A150-4FFD-BB26-5A931554CA3D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSequenceLib", "GotaSequenceLib\GotaSequenceLib.csproj", "{8733197B-97F9-49F7-8F80-BD042EC7622F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanford.Multimedia.Midi.Core", "Sanford.Multimedia.Midi.Core\Sanford.Multimedia.Midi.Core.csproj", "{F7D2BA5C-E0F0-4BA5-8244-0EB8FC7C153E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaNintendoWareSound", "GotaNintendoWareSound\GotaNintendoWareSound.csproj", "{50DF2090-95DF-490B-98A6-1394CC1A54AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{8733197B-97F9-49F7-8F80-BD042EC7622F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8733197B-97F9-49F7-8F80-BD042EC7622F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8733197B-97F9-49F7-8F80-BD042EC7622F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D2BA5C-E0F0-4BA5-8244-0EB8FC7C153E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D2BA5C-E0F0-4BA5-8244-0EB8FC7C153E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D2BA5C-E0F0-4BA5-8244-0EB8FC7C153E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D2BA5C-E0F0-4BA5-8244-0EB8FC7C153E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DF2090-95DF-490B-98A6-1394CC1A54AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DF2090-95DF-490B-98A6-1394CC1A54AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DF2090-95DF-490B-98A6-1394CC1A54AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DF2090-95DF-490B-98A6-1394CC1A54AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
