@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GotaSequenceLib\GotaSequenceLib.csproj" />
-    <ProjectReference Include="..\..\GotaSoundIO\GotaSoundIO.csproj" />
+    <ProjectReference Include="..\GotaSequenceLib\GotaSequenceLib.csproj" />
+    <ProjectReference Include="..\GotaSoundIO\GotaSoundIO.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="BankInfo.cs" />

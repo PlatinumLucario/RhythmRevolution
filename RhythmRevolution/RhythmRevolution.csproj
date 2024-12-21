@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props')" />
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWindowsForms>true</UseWindowsForms>
@@ -20,8 +20,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GotaSequenceLib\GotaSequenceLib.csproj" />
-    <ProjectReference Include="..\..\GotaSoundIO\GotaSoundIO.csproj" />
+    <ProjectReference Include="..\GotaSequenceLib\GotaSequenceLib.csproj" />
+    <ProjectReference Include="..\GotaSoundIO\GotaSoundIO.csproj" />
     <ProjectReference Include="..\RevolutionFileLoader\RevolutionFileLoader.csproj" />
   </ItemGroup>
   <ItemGroup>
