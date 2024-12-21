@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props')" />
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sanford.Multimedia.Midi, Version=6.6.2.0, Culture=neutral, PublicKeyToken=null" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="PianoKey.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GotaSequenceLib\GotaSequenceLib.csproj" />
+    <ProjectReference Include="..\..\GotaSoundIO\GotaSoundIO.csproj" />
+    <ProjectReference Include="..\RevolutionFileLoader\RevolutionFileLoader.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Clock.ico" />
+    <Content Include="Resources\Clock.png" />
+    <Content Include="Resources\DownButton.png" />
+    <Content Include="Resources\Highlighter.png" />
+    <Content Include="Resources\UpButton.png" />
+    <Content Include="Resources\XToCloseButton.png" />
+  </ItemGroup>
+  <Import Project="..\packages\Fody.6.0.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.0.0\build\Fody.targets')" />
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="5.3.0" />
+    <PackageReference Include="ScintillaNET_FindReplaceDialog" Version="1.5.0" />
+  </ItemGroup>
+</Project>

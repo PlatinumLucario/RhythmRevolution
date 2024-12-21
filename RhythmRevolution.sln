@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhythmRevolution", "RhythmRevolution\RhythmRevolution.csproj", "{FFA64869-77B6-49DF-805C-191DE8637D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevolutionFileLoader", "RevolutionFileLoader\RevolutionFileLoader.csproj", "{355B90EC-A9FC-4047-BA39-A26F59EB49D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSequenceLib", "..\GotaSequenceLib\GotaSequenceLib.csproj", "{D06E248A-EF7A-4F1E-9A71-76204D61FF80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSoundIO", "..\GotaSoundIO\GotaSoundIO.csproj", "{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA64869-77B6-49DF-805C-191DE8637D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA64869-77B6-49DF-805C-191DE8637D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA64869-77B6-49DF-805C-191DE8637D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA64869-77B6-49DF-805C-191DE8637D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355B90EC-A9FC-4047-BA39-A26F59EB49D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355B90EC-A9FC-4047-BA39-A26F59EB49D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355B90EC-A9FC-4047-BA39-A26F59EB49D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355B90EC-A9FC-4047-BA39-A26F59EB49D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06E248A-EF7A-4F1E-9A71-76204D61FF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06E248A-EF7A-4F1E-9A71-76204D61FF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06E248A-EF7A-4F1E-9A71-76204D61FF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06E248A-EF7A-4F1E-9A71-76204D61FF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D9A442-023E-449C-BC4A-D850E2B98705}
+	EndGlobalSection
+EndGlobal

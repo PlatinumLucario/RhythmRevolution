@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GotaSequenceLib\GotaSequenceLib.csproj" />
+    <ProjectReference Include="..\..\GotaSoundIO\GotaSoundIO.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="BankInfo.cs" />
+    <Compile Remove="DspAdpcmDecode.cs" />
+    <Compile Remove="DspAdpcmEncode.cs" />
+    <Compile Remove="DspAdpcmMath.cs" />
+    <Compile Remove="FileEntry.cs" />
+    <Compile Remove="GroupInfo.cs" />
+    <Compile Remove="GroupItem.cs" />
+    <Compile Remove="IO\FileReader.cs" />
+    <Compile Remove="IO\FileWriter.cs" />
+    <Compile Remove="IO\IReadable.cs" />
+    <Compile Remove="IO\IWritable.cs" />
+    <Compile Remove="IO\SoundFile.cs" />
+    <Compile Remove="PlayerInfo.cs" />
+    <Compile Remove="SequenceInfo.cs" />
+    <Compile Remove="Sound3dInfo.cs" />
+    <Compile Remove="SoundInfo.cs" />
+    <Compile Remove="StreamInfo.cs" />
+    <Compile Remove="Streams\AST.cs" />
+    <Compile Remove="Streams\Encoding\AudioEncoding.cs" />
+    <Compile Remove="Streams\Encoding\DspAdpcm.cs" />
+    <Compile Remove="Streams\Encoding\PCM16.cs" />
+    <Compile Remove="Streams\Encoding\PCM8.cs" />
+    <Compile Remove="Streams\Encoding\SignedPCM8.cs" />
+    <Compile Remove="Streams\RevolutionWave.cs" />
+    <Compile Remove="Streams\RiffWave.cs" />
+    <Compile Remove="Streams\StreamedAudioFile.cs" />
+    <Compile Remove="WaveSoundInfo.cs" />
+  </ItemGroup>
+</Project>
